@@ -9,9 +9,9 @@ int main()
     cin >> w;
     for(int i=1; i<=w; i++)
     {
-        for(int j = 0; j <= w-1; j++)
+        for(int j = 1; j <= w-i; j++)
             cout << " ";
-        for(int j = 0; j <= i*2-1; i++)
+        for(int j = 0; j <= i*2-2; j++)
             cout << "*";
         cout << endl;
     }
