@@ -11,8 +11,8 @@ int main()
     {
         for(int j = 1; j <= w-i; j++)
             cout << " ";
-        for(int j = 0; j <= i*2-2; j++)
-            cout << "*";
+        for(int j = 0; j <= i-2; j++)
+            cout << "* ";
         cout << endl;
     }
     return 0;
